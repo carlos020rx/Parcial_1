@@ -1,0 +1,126 @@
+:root{
+    --Myblue:#011126;
+    --text-input-infield:#D9B18F;
+    --Myblue2: #032859;
+    --Myblue3:#021D40;
+    --myblue4:#5A708C;
+    --sm:14px;
+    --md:16px;
+    --lg:18px;
+}
+
+body{
+    background-color: var(--Myblue);
+    color: var(--myblue4);
+    margin: 0;
+    font-family: Ubuntu;
+    display: grid;
+    place-items: center;
+}
+strong{
+    color: var(--text-input-infield);
+}
+.container{
+    display: grid;
+    margin-top: 150px;
+    grid-template-rows: auto 1fr auto;
+    width: 500px;
+    justify-items: left;
+    align-items: left;
+    margin-bottom: 150px;
+}
+.content-descripcion{
+    border-color: black;
+    border: 2px;
+}
+.foto_nombre{
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start;
+}
+.content{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    border: 2px solid var(--Myblue2);
+    border-radius: 30px;
+    padding: 15px;
+    background-color: var(--Myblue3);
+    
+    
+
+}
+.foto_nombre img{
+    margin-right:30px ;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+.foto_nombre h1{
+    margin-top: 0;
+    margin-bottom: 0;
+    color: var(--text-input-infield);
+}
+.foto_nombre h4{
+    margin-top: 1px;
+    margin-bottom: 5px;
+    color: white;
+}
+.experencia{
+    list-style-type: none; 
+    padding: 0; 
+    margin: 0; 
+    display: flex; 
+}
+.experencia li{
+    margin-right: 20px;
+    color: white;
+}
+.habilidades li{
+    color: white;
+}
+h3{
+    color: var(--text-input-infield);
+}
+.proyectos{
+    display: flex; 
+    justify-content: space-between;
+    gap: 20px;
+}
+.project-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45%; 
+    height: 150px; 
+    background-color: var(--Myblue2); 
+    color: white;
+    text-decoration: none; 
+    font-size: 20px; 
+    font-weight: bold; 
+    text-align: center;
+    border-radius: 10px; 
+    transition: background-color 0.9s;
+    transition: color 0.9s;
+}
+.project-box:hover {
+    background-color: var(--myblue4);
+    color: var(--Myblue);
+}
+.tutorial{
+    margin-top: 45px;
+    border: 2px solid var(--Myblue2);
+    border-radius: 30px;
+    padding: 15px;
+    background-color: var(--Myblue3);
+}
+.tutorial h2{
+    color: var(--text-input-infield);
+}
+.tutorial h4{
+    color: white;
+}
+.tutorial li{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
